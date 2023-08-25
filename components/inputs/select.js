@@ -46,6 +46,7 @@ export default function SelectItem() {
 
   useEffect(() => {
     getDataItemsData();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [category]);
 
   return (
