@@ -1,4 +1,3 @@
-"use client";
 import "./globals.css";
 import { Kanit } from "next/font/google";
 import { createTheme, ThemeProvider } from "@mui/material";
