@@ -121,9 +121,9 @@ export default function SelectItem() {
         >
           ของที่ต้องใช้
           {item?.meterails?.map((mat) => (
-            <Typography
-              key={`met-${mat.name}`}
-            >{` - ${mat.name} จำนวน ${mat.amount} ชิ้น`}</Typography>
+            <Typography key={`met-${mat.name}`}>{` - ${mat.name} จำนวน ${Number(
+              mat.amount
+            )} ชิ้น`}</Typography>
           ))}
         </Typography>
       </Box>
