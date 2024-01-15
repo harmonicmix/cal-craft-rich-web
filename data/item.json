@@ -1,0 +1,57 @@
+[
+  {
+    "name": "เกราะ",
+    "meterails": [
+      {
+        "name": "เหล็ก",
+        "amount": 25
+      },
+      {
+        "name": "ทอง",
+        "amount": 4
+      },
+      {
+        "name": "เงินแดง",
+        "amount": 1000
+      }
+    ]
+  },
+  {
+    "name": "ครีมตัดโซ่",
+    "meterails": [
+      {
+        "name": "เหล็ก",
+        "amount": 20
+      },
+      {
+        "name": "เงินแดง",
+        "amount": 5000
+      }
+    ]
+  },
+  {
+    "name": "Clothes",
+    "meterails": [
+      {
+        "name": "กระดุม",
+        "amount": 1
+      },
+      {
+        "name": "ขนสัตว์",
+        "amount": 20
+      },
+      {
+        "name": "เขี้ยวเสือ",
+        "amount": 2
+      },
+      {
+        "name": "หนังฟอก",
+        "amount": 10
+      },
+      {
+        "name": "หนังฟอกเสือดำ",
+        "amount": 10
+      }
+    ]
+  }
+]

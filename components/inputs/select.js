@@ -17,6 +17,7 @@ import Button from "@mui/material/Button";
 import data from "../../data/category.json";
 // import Items Data
 import coin from "../../data/coin.json";
+import itemcate from "../../data/item.json";
 
 export default function SelectItem() {
   const [categorys, setCategorys] = useState(data);
@@ -29,6 +30,8 @@ export default function SelectItem() {
   const getDataItemsData = () => {
     if (category == "Coin") {
       setItems(coin);
+    } else if (category == "Item") {
+      setItems(itemcate);
     } else {
       setItems();
     }
